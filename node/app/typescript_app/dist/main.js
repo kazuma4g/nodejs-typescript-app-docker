@@ -1,0 +1,1 @@
+window.addEventListener("load",(function(t){document.querySelector("#target").textContent="This text is changed by Typescript."}));
