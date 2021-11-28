@@ -1,12 +1,6 @@
-var anExample = "Hello, World!";
-console.log(anExample);
-/*
-let x:number
-x = 123
-console.log(x)
-*/
-var x = 123;
-console.log(x);
-var y = "456";
-x = +y;
-console.log(x);
+var price = 12500;
+var withTax = price * 1.1;
+var woTax = price / 1.1;
+console.log("Original price: " + price);
+console.log("With tax: " + withTax);
+console.log("Without tax: " + woTax);
